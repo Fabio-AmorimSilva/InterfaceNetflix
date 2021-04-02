@@ -15,9 +15,11 @@
 
 }
 
+/*elementos base*/
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
 
 }
 
@@ -48,4 +50,27 @@ header nav a{
 header nav a:hover{
     color: #fff;
 
+}
+
+/*filme principal*/
+.filme-principal {
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('imagens/capa-bigbang.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.filme-principal .descricao{
+    margin-bottom: 90px;
+
+}
+
+.titulo{
+    font-size: 40px;
+    
 }
