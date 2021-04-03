@@ -18,7 +18,7 @@
 /*elementos base*/
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: #ffffff;
 
 }
@@ -116,5 +116,43 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+
+}
+
+@media screen and (max-width: 1024px){
+    .filme-principal{
+        width: 100%;
+
+    }
+
+    .carousel-filmes{
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .filme-principal{
+        width: 100%;
+
+    }
+
+    .carousel-filmes{
+        width: 50%;
+
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .botao{
+        margin-top: 1%;
+        width: 200px;
+
+    }
 
 }
