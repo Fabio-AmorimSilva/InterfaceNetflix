@@ -119,6 +119,12 @@ header nav a:hover{
 
 }
 
+.trailer {
+    margin-top: 10px;
+    margin-left: 90px;
+    
+}
+
 @media screen and (max-width: 1024px){
     .filme-principal{
         width: 100%;
