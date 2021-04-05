@@ -125,6 +125,30 @@ header nav a:hover{
     
 }
 
+.item{
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+}
+
+.text-align {
+    position: absolute;
+    left: 200px;
+    bottom: 160px;
+
+}
+
+.link-items {
+    text-decoration: none;
+
+}
+
+.titulo-informacoes{
+    margin-top: -200px;
+
+}
+
 @media screen and (max-width: 1024px){
     .filme-principal{
         width: 100%;
